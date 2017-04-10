@@ -1,0 +1,94 @@
+<html>
+
+	<head>
+		<title>Membuat Form HTML</title>
+		<style>
+    
+    body {
+padding-top : 20px;
+  font  : 15px sans-serif;
+  margin  : 0;
+  background-image:url(maxresdefault.jpg);
+}
+
+form {
+  height : 1340px;
+  background: white;
+}
+fieldset{
+	width  : 800px;
+}
+
+input,
+select,
+textarea {
+  font: 300 20px/22px  "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.btn-default {
+  border: 0;
+  background: #000000;
+  font-color: white;
+  padding: 12px 20px;
+  font-size: 14px;
+  color: white;
+}
+.btn-default:hover {
+  background: #77a198;
+}
+
+    </style>
+	</head>
+	<div align="center">
+	<body>
+	<fieldset align="left">
+	<legend>Angket Mahasiswa Jurusan Pendidikan Teknik Elektronika dan Informatika</legend>
+	<form>
+	Nama<span class="required" style="color: red ">*</span> : <br> </br>
+	<input type="text" size="25" required/> <br> </br>
+	NIM<span class="required" style="color: red ">*</span> : <br> </br>
+	<input type="text" size="25" required/> <br> </br>
+	Prodi<span class="required" style="color: red ">*</span> : <br> </br> 
+	<input type="text" size="25" required/> <br> </br>
+	Email<span class="required" style="color: red ">*</span> : <br> </br> 
+	<input type="Email" size="25" required/> <br> </br>
+	Angkatan:
+	<select name="angkatan" >
+     <option value="2014"> 2014</option>
+	 <option value="2015"> 2015</option>
+	 <option value="2016" selected> 2016</option>
+	</select>
+	<br><br/>
+	Jenis Kelamin : <br> </br>
+	<input type="radio" name="jenis_kelamin" value="laki-laki" checked />
+	Laki - Laki
+	<input type="radio" name="jenis_kelamin" value="perempuan" />
+	Perempuan <br> </br>
+	Alamat<span class="required" style="color: red ">*</span> : <br> </br>
+	<textarea cols="30" rows="5" placeholder="Isikan Alamat Anda" required></textarea> <br> </br>
+	Pelajaran Yang Kalian Sukai : <br> </br>
+	<input type="checkbox"> Pemograman web
+	<input type="checkbox"> Jaringan Komputer
+	<input type="checkbox"> Algoritma
+	<input type="checkbox"> Sistem Operasi
+	<br> </br>
+	Apa saja yang sudah anda Kuasai pada Materi Yang anda Sukai	: <br> </br> 
+	<textarea cols="30" rows="5"  placeholder="Isikan sesuai dengan Kemampuan Anda"></textarea> <br> </br>
+	Komentar Anda : <br> </br>
+	<textarea> </textarea> <br> </br>
+	Perhatian  : <br></br><span align="left" class="required" style="color: red ">*</span>Kolom yang Bertanda Wajib Diisi
+	<br> </br>
+	<input class="btn btn-default" type="submit"value="Kirim Angket">
+	<br> </br>
+	<p align="left">
+	Alamat    : <span style="color: blue ">Kompleks Fakultas Teknik Kampus Karangmalang, Yogyakarta, 55281 </span> <br> </br>
+	Telepon : <span style="color: blue ">(0274) 554686
+	</span> <br> </br>
+	Email       : <span  style="color: blue ">elektronika@uny.ac.id</span> <br> </br>
+	Website       : <a href="http://jptei.ft.uny.ac.id/">jptei.ft.uny.ac.id</a><br> </br>
+	</p>
+	</fieldset>
+	</form>
+	</div>
+	</body>
+</html>
