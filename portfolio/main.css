@@ -1,0 +1,252 @@
+body {
+  background-image: url("bg-web.jpg");
+  background-size: 100% 100%;
+}
+
+h1{
+  padding-left: 20px; 
+  position: absolute;
+  display: block;
+  font-family: "Courier";
+  font-size: 55px;
+  font-style: bold;
+  color : white;
+}
+
+img.bg1{
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto; 
+  margin-top: 20px;
+  width: 996px;
+  height: 696px;
+}
+
+img.chiva{
+  width: 400px;
+  height: 400px;
+  position: relative;
+  display: inline-block;
+  margin-top: -470px;
+  margin-left: 380px;
+}
+
+img.chiva:hover{
+  -webkit-filter: grayscale(50%);
+  filter: grayscale(50%);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+img.chiva:hover+span{
+  position: absolute;
+  display: inline-block;
+  margin-left: 20px;
+  top: 50px;
+  opacity: 10;
+}
+
+img.biografi{
+  width: 250px;
+  height: 250px;
+  position: relative;
+  display: inline-block;
+  margin-top: -665px;
+  margin-left: 966px;
+}
+
+img.biografi:hover{
+  position: relative;
+  display: inline-block;
+   -webkit-filter: grayscale(50%);
+}
+
+img.resume{
+  width: 180px;
+  height: 180px;
+  position: relative;
+  display: inline-block;
+  margin-top: -205px;
+  margin-left: 1000px;
+}
+
+img.resume:hover{
+  position: relative;
+  display: inline-block;
+   -webkit-filter: grayscale(50%);
+}
+
+img.home{
+  width: 130px;
+  height: 290px;
+  position: relative;
+  display: inline-block;
+  margin-top: 410px;
+  margin-left: 1400px;
+}
+
+img.home:hover{
+  position: relative;
+  display: inline-block;
+   -webkit-filter: grayscale(50%);
+}
+
+h1.bio{
+  position: absolute;
+  text-decoration: underline overline;
+  display: inline-block;
+  margin-top: 160px;
+  margin-left: 450px;
+  color:black;
+  z-index: 100;
+}
+
+img.bgbio{
+  margin-top: -200px;
+  margin-left: 200px;
+  width: 1000px;
+  height: 870px;
+  position: absolute;
+}
+
+.desbio{
+  position: absolute;
+  font-size: 19px;
+  z-index: 100;
+  width: 900px;
+  text-align: justify;
+  font-style: oblique;
+  font-family: Georgia;
+  margin-top: -480px;
+  margin-left: 260px;
+}
+
+img.edu{
+  margin-top: -30px;
+  width: 330px;
+  height: 690px;
+  position: absolute;
+}
+
+img.skill{
+  margin-top: -30px;
+  margin-left: 700px;
+  width: 330px;
+  height: 690px;
+  position: absolute;
+}
+
+img.act{
+  margin-top: 70px;
+  margin-left: 1050px;
+  width: 330px;
+  height: 690px;
+  position: absolute;
+}
+
+img.ex{
+  margin-top: 70px;
+  margin-left: 350px;
+  width: 330px;
+  height: 690px;
+  position: absolute;
+}
+
+h1.edu{
+  position: absolute;
+  text-decoration: underline overline;
+  display: inline-block;
+  color:black;
+  z-index: 100;
+  margin-top: 210px;
+}
+
+p.edu{
+  position: absolute;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 300px;
+  margin-left: 25px;
+  z-index: 100;
+  text-align: justify;
+}
+
+h1.ex{
+  position: absolute;
+  text-decoration: underline overline;
+  display: inline-block;
+  color:black;
+  z-index: 100;
+  margin-top: 470px;
+  margin-left: 330px;
+}
+
+p.ex{
+  position: absolute;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 190px;
+  margin-left: 380px;
+  z-index: 100;
+  text-align: justify;
+}
+
+h1.skills{
+  position: absolute;
+  text-decoration: underline overline;
+  display: inline-block;
+  color:black;
+  z-index: 100;
+  margin-top: 210px;
+  margin-left: 750px;
+}
+
+p.skills{
+  position: absolute;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 300px;
+  margin-left: 755px;
+  z-index: 100;
+  text-align: justify;
+}
+
+h1.act{
+  position: absolute;
+  text-decoration: underline overline;
+  display: inline-block;
+  color:black;
+  z-index: 100;
+  margin-top: 470px;
+  margin-left: 1060px;
+}
+
+p.act{
+  position: absolute;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 230px;
+  margin-left: 1080px;
+  z-index: 100;
+  text-align: justify;
+}
+
+span{
+  position: absolute;
+  bottom: 1020px;
+  left: 0;
+  z-index: -1;
+  display: block;
+  color: black;
+  font-family: "Courier";
+  font-size: 55px;
+  font-style: bold;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  opacity: 0;
+}
