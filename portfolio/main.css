@@ -79,10 +79,10 @@ img.resume:hover{
 
 img.home{
   width: 130px;
-  height: 290px;
+  /*height: 290px;*/
   position: relative;
   display: inline-block;
-  margin-top: 700px;
+  margin-top: 410px;
   margin-left: 1400px;
 }
 
