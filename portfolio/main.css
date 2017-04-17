@@ -29,7 +29,7 @@ img.chiva{
   position: relative;
   display: inline-block;
   margin-top: -470px;
-  margin-left: 250px;
+  margin-left: 220px;
 }
 
 img.chiva:hover{
@@ -53,7 +53,7 @@ img.biografi{
   position: relative;
   display: inline-block;
   margin-top: -665px;
-  margin-left: 300em;
+  margin-left: 877px;
 }
 
 img.biografi:hover{
@@ -67,8 +67,8 @@ img.resume{
   height: 180px;
   position: relative;
   display: inline-block;
-  margin-top: -205px;
-  margin-left: 700px;
+  margin-top: -210px;
+  margin-left: 900px;
 }
 
 img.resume:hover{
@@ -244,7 +244,7 @@ span{
   display: block;
   color: black;
   font-family: "Courier";
-  font-size: 55px;
+  font-size: 43px;
   font-weight: bold;
   -webkit-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
