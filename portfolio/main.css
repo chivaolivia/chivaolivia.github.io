@@ -29,7 +29,7 @@ img.chiva{
   position: relative;
   display: inline-block;
   margin-top: -470px;
-  margin-left: 270px;
+  margin-left: 250px;
 }
 
 img.chiva:hover{
@@ -53,7 +53,7 @@ img.biografi{
   position: relative;
   display: inline-block;
   margin-top: -665px;
-  margin-left: 966px;
+  margin-left: 600px;
 }
 
 img.biografi:hover{
@@ -68,7 +68,7 @@ img.resume{
   position: relative;
   display: inline-block;
   margin-top: -205px;
-  margin-left: 900px;
+  margin-left: 700px;
 }
 
 img.resume:hover{
