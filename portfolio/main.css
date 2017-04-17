@@ -9,7 +9,7 @@ h1{
   display: block;
   font-family: "Courier";
   font-size: 55px;
-  font-style: bold;
+  font-weight: bold;
   color : white;
 }
 
@@ -245,7 +245,7 @@ span{
   color: black;
   font-family: "Courier";
   font-size: 55px;
-  font-style: bold;
+  font-weight: bold;
   -webkit-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
   opacity: 0;
