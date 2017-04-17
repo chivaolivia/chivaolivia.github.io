@@ -3,6 +3,7 @@
   -Membuat bio.html yang berisi sejarah singkat tentang diri saya.
   -membuat resume.html yang berisi nama, pendidikan, pengalaman, keahlian, dan aktivitas selama di kuliah.
   -Membuat readme.txt yang berisi informasi singkat mengenai tugas portfolio ini.
+  (Recommended Resolution 1366 x 768)
 
 2. Berkolaborasi bersama dengan: 
   -Helmi Argya Santosa
