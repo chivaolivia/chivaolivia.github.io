@@ -1,0 +1,40 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/main.css"/>
+</head>
+
+<body class="quiz">
+	<div id="kuis" class="kuis">
+		<div id="pertanyaan" class="pertanyaan">			
+		</div>
+		<div id="jawaban" class="jawaban">
+			<label onclick="pilihJawaban()">
+				<div id="pilih1" class="pilihan">
+					<input type="radio" name="pilihan" value="1"><span class="pilgan">A. </span><span id="jawaban1"></span>
+				</div>
+			</label>
+		</div>
+		<div id="jawaban" class="jawaban">
+			<label onclick="pilihJawaban()">
+				<div id="pilih2" class="pilihan">
+					<input type="radio" name="pilihan" value="2"><span class="pilgan">B. </span><span id="jawaban2"></span>
+				</div>
+			</label>
+		</div>
+		<div id="jawaban" class="jawaban">
+			<label onclick="pilihJawaban()">
+				<div id="pilih3" class="pilihan">
+					<input type="radio" name="pilihan" value="3" class="pilihan"><span class="pilgan">C. </span><span id="jawaban3"></span>
+				</div>
+			</label>
+		</div>
+	<!-- <button id="lanjutButton" onclick="lanjutSoal()">Lanjut</button> -->
+	<img src="img/next.png" id="lanjutButton" onclick="lanjutSoal()" class="next" />
+	</div>
+	<div id="keterangan" class="keterangan"></div>
+	<div id="hasil" class="hasil"></div>
+	<a href="index.html"><img src="img/mulai.png" id="ulangButton" class="ulangButton" /></a>
+	<script type="text/javascript" src="js/question.js"></script>
+	<script type="text/javascript" src="js/quiz-script.js"></script>
+</body>
+</html>
